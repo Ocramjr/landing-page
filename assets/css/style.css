@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 280px;
+    background: url(https://themewagon.github.io/foody2/img/carousel-1.jpg) top right;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.cabecalho .logo .logo1{
+    margin-top: 7px;
+    margin-left: 25px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #3CB815;
+}
+
+.cabecalho .logo .logo2 {
+    color: #F65005;
+}
+
+.cabecalho .icones {
+    margin: 20px;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+
+.icones, .procura, .user, .bag {
+    display: flex;
+    justify-content: end;
+    max-height: 10px;
+    padding-right: 5px;
+}
+
+.cabecalho .selecao {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: fit-content;
+}
+
+.cabecalho .title {
+    position: absolute;
+    text-align: left;
+    left: 155px;
+    top: 115px;
+}
+
+.cabecalho .lista {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    list-style: none;
+    outline: none;
+}
+
+.valor1, .valor2, .valor3 {
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+
+}
+
+.cabecalho .selecao .link {
+    box-sizing: border-box;
+    padding: 15px 10px;
+    outline: none;
+    text-decoration: none;
+    color: #555555;
+}
+
+

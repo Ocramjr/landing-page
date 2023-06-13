@@ -13,13 +13,13 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 280px;
+    height: 300px;
     background: url(https://themewagon.github.io/foody2/img/carousel-1.jpg) top right;
     background-size: cover;
     box-sizing: border-box;
 }
 
-.cabecalho .logo .logo1{
+.cabecalho .logo .logo1 {
     margin-top: 7px;
     margin-left: 25px;
     font-weight: bolder;
@@ -32,16 +32,18 @@
 }
 
 .cabecalho .icones {
-    margin: 20px;
-    gap: 30px;
-    padding-bottom: 10px;
+    margin: 12px;
+    gap: 10px;
 }
 
-.icones, .procura, .user, .bag {
+.icones,
+.procura,
+.user,
+.bag {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     max-height: 10px;
-    padding-right: 5px;
+    padding-right: 1px;
 }
 
 .cabecalho .selecao {
@@ -49,13 +51,19 @@
     display: flex;
     justify-content: flex-end;
     height: fit-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .cabecalho .title {
     position: absolute;
     text-align: left;
-    left: 155px;
-    top: 115px;
+    left: 280px;
+    top: 130px;
+}
+
+.cabecalho .title .contactus {
+    font-weight: bold;
+    font-size: 55px;
 }
 
 .cabecalho .lista {
@@ -64,16 +72,21 @@
     padding: 0 0;
     list-style: none;
     outline: none;
+    margin-top: 12px;
 }
 
-.valor1, .valor2, .valor3 {
+.valor1,
+.valor2,
+.valor3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     color: black;
     padding-left: 5px;
-
+    font-size: 16px;
 }
 
-.cabecalho .selecao .link {
+.cabecalho .selecao .link,
+.contact {
     box-sizing: border-box;
     padding: 15px 10px;
     outline: none;
@@ -81,4 +94,208 @@
     color: #555555;
 }
 
+.cabecalho .selecao .contact {
+    font-weight: bold;
+}
 
+.cabecalho .icones .icone1,
+.icone2,
+.icone3 {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    width: 25px;
+    height: 25px;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+    margin-left: 1rem !important;
+}
+
+.section1 .linha1 {
+    margin-top: 70px;
+    border: solid #3CB815;
+    border-width: 1.5px;
+    position: absolute;
+    width: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section1 .linha2 {
+    margin-top: 80px;
+    border: solid #F65005;
+    border-width: 1.5px;
+    position: absolute;
+    width: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section2 .seccontactus {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section2 .sectext {
+    text-align: center;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section3 {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.section3 .formu {
+    width: 71%;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 2%;
+    padding: 3rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #3CB815;
+}
+
+.section3 .formu .textwhite {
+    font-size: 20px;
+    margin-bottom: 2px;
+    font-weight: bolder;
+}
+
+.section3 .formu .telefone,
+.cartao,
+.localizacao {
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.section3 .formu .fone {
+    max-height: 20px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.section3 .formu .carta {
+    max-height: 20px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.section3 .formu .local {
+    max-height: 20px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.section3 .formu .iconsocial {
+    display: flex;
+}
+
+.twitter,
+.facebook,
+.linkedin,
+.youtube {
+    margin-top: 7px;
+    max-height: 35px;
+    padding-right: 4px;
+}
+
+.section3 .formulario {
+    display: flex;
+    margin-top: 3%;
+    margin-right: 20%;
+    flex-wrap: wrap;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section3 .formulario .desc {
+    margin-bottom: 1rem;
+}
+
+.section3 .formulario .desc a {
+    text-decoration: none;
+    color: #3CB815;
+}
+
+form,
+.geralform {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.geralform .part1,
+.part2 {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.part3,
+.part4 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.botao {
+    width: 100%;
+}
+
+.formtype {
+    position: relative;
+}
+
+.formtype>.form-control,
+.formtype>.form-select {
+    height: calc(1.5rem + 2px);
+    padding: 1rem 0.75rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+.botao .botaoenviar {
+    color: #fff;
+    background-color: #3CB815;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    border: 1px solid transparent;
+    border-radius: 50rem;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.container-google {
+    height: 450px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -6px;
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeIn;
+}
+
+.mapa {
+    width: 75%;
+    height: 450px;
+    padding-top: 90px;
+    margin-left: 220px;
+}

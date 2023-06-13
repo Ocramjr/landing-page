@@ -295,7 +295,22 @@ form,
 
 .mapa {
     width: 75%;
-    height: 450px;
     padding-top: 90px;
     margin-left: 220px;
+    height: 354px;
+}
+
+.footer {
+    background-color: #111;
+    padding-top: 3rem;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.footer .contfooter {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 960px;
+    color: #999999;
 }

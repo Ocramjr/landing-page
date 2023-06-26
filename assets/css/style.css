@@ -14,17 +14,16 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 300px;
-    background: url(https://themewagon.github.io/foody2/img/carousel-1.jpg) top right;
+    height: 350px;
+    background: url(https://themewagon.github.io/foody2/img/carousel-1.jpg) top right no-repeat ;
     background-size: cover;
-    box-sizing: border-box;
 }
 
 .cabecalho .logo .logo1 {
     margin-top: 7px;
     margin-left: 25px;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 35px;
     color: #3CB815;
 }
 
@@ -203,9 +202,7 @@
 .facebook,
 .linkedin,
 .youtube {
-    margin-top: 7px;
-    max-height: 35px;
-    padding-right: 4px;
+    max-height: 32px;
 }
 
 .section3 .formulario {
@@ -286,8 +283,8 @@ form,
 
 .container-google {
     height: 450px;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+    padding-right: 0;
+    padding-left: 0;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -298,10 +295,11 @@ form,
 }
 
 .mapa {
-    width: 75%;
+    display: flex;
+    width: 70%;
     padding-top: 90px;
-    margin-left: 220px;
-    height: 354px;
+    height: 444px;
+    margin: auto;
 }
 
 .footer {
@@ -310,11 +308,216 @@ form,
     width: 100%;
     height: 500px;
     box-sizing: border-box;
+    color: #999999;
 }
 
 .footer .contfooter {
-    padding-top: 3rem;
     padding-bottom: 3rem;
-    max-width: 960px;
+    padding-top: 3rem;
+    max-width: 1360px;
+    margin-left: 50px;
+    margin: auto;
+}
+
+.footer .contfooter .colunafooter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .contfooter .colunafooter p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+.footer .colunafooter1,
+.colunafooter2, .colunafooter3, .colunafooter4 {
+    flex: 0 0 auto;
+    width: 25%;
+    height: 250px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.footer .colunafooter1 .logo1end {
+    color: #3CB815;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-size: 40px;
+}
+
+.footer .colunafooter1 .logo2end {
+    color: #F65005;
+}
+
+.footer .iconsocialend {
+    padding-top: 0.5rem;
+    display: flex;
+}
+
+.footer .iconsocialend .socialend {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    width: 38px;
+    height: 38px;
+    margin-right: 0.25rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    border-color: #F7F8FC;
+    background-color: white;
+}
+
+.footer .colunafooter2 .titlecoluna2, .titlecoluna3, .titlecoluna4 {
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+
+.footer .colunafooter2 .fone {
+    max-height: 20px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.footer .colunafooter2 .carta {
+    max-height: 15px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.footer .colunafooter2 .local {
+    max-height: 20px;
+    margin-top: 5px;
+    padding-right: 10px;
+
+}
+
+.footer .colunafooter3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .colunafooter3 .iconlateral {
+    text-decoration: none;
     color: #999999;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    background-color: #111;
+}
+
+.footer .colunafooter3 .setalateral {
+    max-height: 20px;
+    font-weight: 400;
+    padding-right: 10px;  
+}
+
+.footer .colunafooter4 .endbutton {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.footer .colunafooter4 .endinput{
+    background-color: rgba(0,0,0,0);
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #ced4da;
+    width: 100%;
+}
+
+.footer .colunafooter4 .endbutton .sigbutton{
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .5s;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: .5rem;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: #3CB815;
+    border-color: #3CB815;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1360px;
+}
+
+.footer .containercopyright{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15px;
+}
+
+.footer .containercopyright .footerrow{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .containercopyright .footerrow .rowtext{
+    text-align: left;
+}
+
+.footer .containercopyright .footerrow .rowtext2{
+    text-align: right;
+}
+
+.footer .containercopyright a{
+    color: var(--light);
+    text-decoration: none;
+}
+
+.container .buttonback{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    color: #FFFFFF;
+    width: 48px;
+    height: 48px;
+    right: 30px;
+    bottom: 35px;
+    z-index: 99;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #3CB815;
+    border-color: #3CB815;
+    border: 1px solid transparent;
+}
+
+.container .buttonback .iconbackbtn { 
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    max-height: 20px;
+    font-weight: 400;
 }
